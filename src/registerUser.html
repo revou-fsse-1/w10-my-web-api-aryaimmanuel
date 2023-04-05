@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 10 API webapp</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Register Your Account</h1>
+        <form>
+          <div>
+            <label for="email" class="">Email</label>
+            <div>
+              <input type="email" id="email" placeholder="Enter email" />
+            </div>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <div>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter password"
+              />
+            </div>
+          </div>
+        </form>
+        <div>
+          <p>
+            Have an account?
+            <a href="./loginUser.html">Sign in here !</a>
+          </p>
+          <button type="submit" id="button-register" onclick="registerUser()">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
